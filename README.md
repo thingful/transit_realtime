@@ -33,12 +33,12 @@ To update the bindings if the protocol buffer spec changes, you need to:
 1. Install the protocol buffer compiler (`protoc`)
 2. Regenerate the language bindings using protoc:
 
-```bash
-protoc --go_out=. --proto_path=. ./gtfs-realtime.proto
-```
+    ```bash
+    protoc --go_out=. --proto_path=. ./gtfs-realtime.proto
+    ```
 
-3. Run the test file:
+3. Run the tests:
 
-```bash
-go test
-```
+    ```bash
+    go test
+    ```
