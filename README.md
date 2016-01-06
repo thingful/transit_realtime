@@ -25,3 +25,14 @@ version of the GTFS-realtime protocol buffer spec included here.
 
 A number of other pre-generated bindings are provided by Google here:
 https://github.com/google/gtfs-realtime-bindings
+
+## Updating
+
+To update the bindings if the protocol buffer spec changes, you need to:
+
+1. Install the protocol buffer compiler (`protoc`)
+2. Regenerate the language bindings using protoc:
+
+```bash
+protoc --go_out=. --proto_path=. ./gtfs-realtime.proto
+```
