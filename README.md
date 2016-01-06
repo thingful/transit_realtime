@@ -30,7 +30,7 @@ https://github.com/google/gtfs-realtime-bindings
 
 To update the bindings if the protocol buffer spec changes, you need to:
 
-1. Install the protocol buffer compiler (`protoc`)
+1. Install the protocol buffer compiler (`protoc`). This binding was generated using version `2.6.1`.
 2. Regenerate the language bindings using protoc:
 
     ```bash
