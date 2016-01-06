@@ -36,3 +36,9 @@ To update the bindings if the protocol buffer spec changes, you need to:
 ```bash
 protoc --go_out=. --proto_path=. ./gtfs-realtime.proto
 ```
+
+3. Run the test file:
+
+```bash
+go test
+```
