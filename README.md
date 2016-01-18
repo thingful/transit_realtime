@@ -42,3 +42,7 @@ To update the bindings if the protocol buffer spec changes, you need to:
     ```bash
     go test
     ```
+
+## Build status
+
+[![wercker status](https://app.wercker.com/status/b3cc161ff9667edc85ca273f0286cf3c/s/master "wercker status")](https://app.wercker.com/project/bykey/b3cc161ff9667edc85ca273f0286cf3c)
