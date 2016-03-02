@@ -1,0 +1,5 @@
+package: github.com/thingful/transit_realtime
+import:
+- package: github.com/golang/protobuf
+  subpackages:
+  - proto
